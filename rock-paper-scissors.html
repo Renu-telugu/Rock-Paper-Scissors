@@ -2,39 +2,53 @@
 <html>
   <head>
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <p class="title">Rock Paper Scissors!</p>
-    <button onclick="
+    <button
+      onclick="
       playGame('rock');
-    " class="move-button">
-      <img src="images/rock-emoji.png" class="move-icon">
+    "
+      class="move-button"
+    >
+      <img src="images/rock-emoji.png" class="move-icon" />
     </button>
 
-    <button onclick="
+    <button
+      onclick="
       playGame('paper');
-    " class="move-button">
-      <img src="images/paper-emoji.png" class="move-icon">
+    "
+      class="move-button"
+    >
+      <img src="images/paper-emoji.png" class="move-icon" />
     </button>
 
-    <button onclick="
+    <button
+      onclick="
       playGame('scissors');
-    " class="move-button">
-      <img src="images/scissors-emoji.png" class="move-icon">
+    "
+      class="move-button"
+    >
+      <img src="images/scissors-emoji.png" class="move-icon" />
     </button>
 
     <p class="js-result result">Make a move!</p>
     <p class="js-moves"></p>
     <p class="js-score score"></p>
 
-    <button onclick="
+    <button
+      onclick="
       score.wins = 0;
       score.losses = 0;
       score.ties = 0;
       localStorage.removeItem('score');
       updateScoreElement();
-    " class="reset-score-button">Reset Score</button>
+    "
+      class="reset-score-button"
+    >
+      Reset Score
+    </button>
 
     <script src="script.js"></script>
   </body>
