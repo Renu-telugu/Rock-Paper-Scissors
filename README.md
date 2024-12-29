@@ -23,7 +23,7 @@ This is a simple yet engaging **Rock Paper Scissors** game built with HTML, CSS,
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/rock-paper-scissors.git
+   https://github.com/Renu-telugu/Rock-Paper-Scissors/tree/main
 2. Open the index.html file in your browser to start playing.
 
 ## Technologies Used
